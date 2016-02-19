@@ -1,10 +1,10 @@
 var should = require('chai').should();
-var Garbarino = require('../model/fravega')
-var testObject = new Garbarino();
+var Favega = require('../model/fravega')
+var testObject = new Favega();
 var path = require('path');
 var html = require('fs').readFileSync(path.join(__dirname ,'../fravega.html'), 'utf8');
 
-describe('Compumundo Tests', function () {
+describe('Favega Tests', function () {
 	it('should have a list of items', function() {
 			var result = testObject.mapToProducts(html);
 			result.should.have.length.of(24);

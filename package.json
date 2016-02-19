@@ -16,7 +16,8 @@
     "url": "https://github.com/jppampin/shoppingCrawler/issues"
   },
   "dependencies": {
-    "cheerio": "~0.20.0"
+    "cheerio": "~0.20.0",
+    "q": "~1.4.1"
   },
   "devDependencies": {
     "chai": "~3.5.0",

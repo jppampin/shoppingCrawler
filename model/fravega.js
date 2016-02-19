@@ -13,7 +13,7 @@ function Fravega(){
 		product.price = $product.find('a em.BestPrice').text();
 
 		return product;
-	}
+	};
 
 	this.mapToProducts = function (html) {
 		var $ = cheerio.load(html);
@@ -26,7 +26,7 @@ function Fravega(){
 		});
 
 		return products;
-	}
+	};
 }
 
 module.exports = Fravega;

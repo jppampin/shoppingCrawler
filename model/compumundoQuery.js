@@ -1,6 +1,4 @@
-var url = require('url');
-
-function CarrefourQuery(){
+function CompumundoQuery(){
 	this.getUrl = function (query) {
 		var baseUri = 'https://www.compumundo.com.ar/productos?q=';
 
@@ -8,4 +6,4 @@ function CarrefourQuery(){
 	}
 }
 
-module.exports = CarrefourQuery;
+module.exports = CompumundoQuery;

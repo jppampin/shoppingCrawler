@@ -1,8 +1,8 @@
 var should = require('chai').should();
-var CarrefourQuery = require('../model/carrefourQuery')
-var testObject = new CarrefourQuery();
+var GarbarinoQuery = require('../model/garbarinoQuery')
+var testObject = new GarbarinoQuery();
 
-describe('CarrefourQuery Tests', function () {
+describe('GarbarinoQuery Tests', function () {
 	it('should return an url', function() {
 		var result = testObject.getUrl('auriculares philips');
 		result.should.not.be.empty;

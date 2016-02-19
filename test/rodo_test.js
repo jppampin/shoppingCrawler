@@ -1,6 +1,6 @@
 var should = require('chai').should();
-var Garbarino = require('../model/rodo')
-var testObject = new Garbarino();
+var Rodo = require('../model/rodo')
+var testObject = new Rodo();
 var path = require('path');
 var html = require('fs').readFileSync(path.join(__dirname ,'../rodo.html'), 'utf8');
 

@@ -1,6 +1,6 @@
 var should = require('chai').should();
-var Garbarino = require('../model/musimundo')
-var testObject = new Garbarino();
+var Musimundo = require('../model/musimundo')
+var testObject = new Musimundo();
 var path = require('path');
 var html = require('fs').readFileSync(path.join(__dirname ,'../musimundo.html'), 'utf8');
 

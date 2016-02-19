@@ -1,8 +1,8 @@
 var should = require('chai').should();
-var CarrefourQuery = require('../model/carrefourQuery')
-var testObject = new CarrefourQuery();
+var FravegaQuery = require('../model/fravegaQuery')
+var testObject = new FravegaQuery();
 
-describe('CarrefourQuery Tests', function () {
+describe('FravegaQuery Tests', function () {
 	it('should return an url', function() {
 		var result = testObject.getUrl('auriculares philips');
 		result.should.not.be.empty;
