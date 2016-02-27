@@ -4,7 +4,9 @@ var httpPromise = require('../model/httpPromise')
 
 describe('httpPromise Tests', function () {
 	it('Should return a list of products', function(done) {
-			httpPromise.get('http://www.google.com').then(function resolved(data) {
+			this.timeout(5000);
+			
+			httpPromise.get('http://www.rodo.com.ar/catalogsearch/result/?q=philips').then(function resolved(data) {
 				data.should.not.be.empty;
 				done();
 			})

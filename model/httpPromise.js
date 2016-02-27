@@ -1,10 +1,10 @@
 const http = require('http');
 const Q = require('q');
-const deferred = Q.defer();
 const url = require('url');
 
 function HttpPromise(){
 	this.get = function (uri) {
+		var deferred = Q.defer();
 		var options = {
 		  host: 'localhost',
 		  port: 3128,
